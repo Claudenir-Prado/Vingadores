@@ -1,0 +1,1215 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+html,
+body {
+  max-width: 100%;
+  height: auto;
+  background-color: #00254e;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.herois {
+  min-width: 320px;
+  max-width: 2560px;
+  height: auto;
+  margin: 0 auto;
+}
+.conteiner {
+  min-width: 320px;
+  max-width: 2560px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex: 0 1 1;
+  margin-top: 0;
+  height: auto;
+  text-align: center;
+  background-color: #00254e;
+}
+.conteiner img {
+  min-width: 320px;
+  width: 320px;
+  text-align: center;
+  margin: 0 auto;
+}
+.conteiner .menu {
+  width: 320px;
+  text-decoration: none;
+}
+.conteiner .menu ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  list-style: none;
+  height: 140px;
+  margin: 0 auto;
+}
+.conteiner .menu ul li {
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 32px;
+  margin-top: 10px;
+  font-size: 12px;
+  max-width: 100px;
+}
+.conteiner .menu ul li a {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: auto;
+  height: 30px;
+  border: 2px solid black;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 40px;
+  color: #ff7e00;
+  text-align: center;
+}
+.container {
+  min-width: 320px;
+  max-width: 2560px;
+  height: auto;
+}
+.corpo-personagens {
+  min-width: 320px;
+  max-width: 2560px;
+}
+.corpo-personagens .container-flex {
+  min-width: 320px;
+  max-width: 2560px;
+}
+.container-flex .card-personagem img {
+  min-width: 320px;
+  max-width: 2560px;
+  align-self: auto;
+}
+.container-flex .card-personagem img:hover {
+  border: 5px solid #ff7e00;
+}
+.container-flex-son {
+  min-width: 320px;
+  max-width: 1440px;
+}
+.container-flex-son .persona {
+  min-width: 320px;
+  max-width: 1440px;
+}
+.container-flex-son .persona h1 {
+  min-width: 320px;
+  max-width: 1440px;
+  color: #ff7e00;
+  text-align: center;
+}
+.container-flex-son .ator h2 {
+  min-width: 320px;
+  max-width: 1440px;
+  color: #ff7e00;
+  text-align: center;
+}
+.sobre {
+  min-width: 320px;
+  max-width: 1440px;
+  color: #ff7e00;
+  justify-content: safe;
+  text-align: center;
+}
+.container-flex-son .sobre p {
+  min-width: 320px;
+  max-width: 1440px;
+  color: #ff7e00;
+  font-size: 0.8rem;
+  justify-content: center;
+}
+.rodape {
+  display: flex;
+  flex: 0 1 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 320px;
+  max-width: 2560px;
+  background-color: #000;
+  text-align: center;
+}
+.menu-footer {
+  width: 320px;
+  max-width: 2560px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.menu-footer img {
+  min-width: 320px;
+  max-width: 1000px;
+  flex: 1 1 320px;
+}
+.direitos {
+  margin-left: 40px;
+  max-width: 320px;
+  color: antiquewhite;
+}
+
+.rodape .menu-footer .social {
+  display: flex;
+  width: 120px;
+  justify-content: space-around;
+}
+.topo {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  background-color: #ff7e00;
+  color: black;
+}
+@media screen and (min-width: 375px) {
+  .herois {
+    min-width: 375px;
+    height: auto;
+    margin: 0 auto;
+  }
+  .herois .conteiner {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 0 1 1;
+    margin-top: 0;
+    height: auto;
+    text-align: center;
+    background-color: #00254e;
+    margin: 0 auto;
+  }
+  .conteiner .baner img {
+    width: 375px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .conteiner .menu {
+    width: 375px;
+    text-decoration: none;
+  }
+  .container {
+    width: 375px;
+    height: auto;
+    margin: 0 auto;
+  }
+  .corpo-personagens {
+    width: 375px;
+  }
+  .corpo-personagens .container-flex {
+    width: 375px;
+  }
+  .container-flex .card-personagem img {
+    width: 100%;
+    align-self: auto;
+  }
+  .container .corpo-personagens .container-flex .container-flex-son {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .rodape {
+    width: 375px;
+    background-color: #000;
+    text-align: center;
+  }
+  .menu-footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .menu-footer img {
+    max-width: 100%;
+    flex: 0 1 1;
+  }
+}
+@media screen and (min-width: 425px) {
+  .herois {
+    width: 425px;
+    height: auto;
+    margin: 0 auto;
+  }
+  .conteiner {
+    width: 100%;
+    background-color: #00254e;
+  }
+  .herois .conteiner img {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .conteiner .menu {
+    width: 425px;
+    text-decoration: none;
+  }
+  .conteiner .menu ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style: none;
+    height: 140px;
+    margin: 0 auto;
+  }
+  .container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    text-align: center;
+  }
+  .corpo-personagens {
+    display: flex;
+    text-align: center;
+    width: 100%;
+  }
+  .corpo-personagens .container-flex {
+    width: 100%;
+    text-align: center;
+  }
+  .container .corpo-personagens .container-flex img {
+    width: 425px;
+  }
+  .container .corpo-personagens .container-flex .container-flex-son {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .rodape {
+    display: flex;
+    flex: 0 1 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 425px;
+    background-color: #000;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .herois {
+    width: 768px;
+    height: auto;
+  }
+  .conteiner {
+    min-width: 768px;
+    background-color: #00254e;
+  }
+  .conteiner img {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .herois .conteiner .menu img {
+    width: 80%;
+  }
+  .herois .conteiner .baner img {
+    width: 100%;
+    height: auto;
+  }
+  .conteiner .menu {
+    width: 768px;
+    text-decoration: none;
+  }
+  .conteiner .menu ul {
+    width: 768px;
+    height: 140px;
+    margin: 20px auto; /*14/11*/
+  }
+  .conteiner .menu ul li {
+    font-weight: 600;
+    font-size: 12px;
+    max-width: 100px;
+  }
+  .conteiner .menu ul li a {
+    height: 37px;
+    font-size: 16px;
+  }
+  .container {
+    display: flex;
+    width: 768px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    text-align: center;
+  }
+  .corpo-personagens {
+    width: 100%;
+  }
+  .corpo-personagens .container-flex {
+    width: 768px;
+  }
+  .container .corpo-personagens .container-flex img {
+    width: 768px;
+  }
+  .container .corpo-personagens .container-flex .container-flex-son {
+    width: 768px;
+    margin: 0 auto;
+  }
+  .container .corpo-personagens .container-flex .container-flex-son h1 {
+    width: 768px;
+    font-size: 32px;
+    margin-top: 10px;
+  }
+  .container .corpo-personagens .container-flex .container-flex-son h2 {
+    width: 768px;
+    font-size: 30px;
+    margin-top: 10px;
+  }
+  .container .corpo-personagens .container-flex .container-flex-son p {
+    font-size: 20px;
+    margin-top: 10px;
+    width: 768px;
+  }
+  .rodape {
+    width: 768px;
+    background-color: #000;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .herois {
+    width: 1024px;
+    height: auto;
+  }
+  .conteiner {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex: 0 1 1;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    max-width: 1024px;
+  }
+  .conteiner img {
+    width: 100%;
+    margin-left: 0;
+  }
+  .herois .conteiner .baner img {
+    display: flex;
+    width: 700px;
+    height: auto;
+    margin-top: 0;
+    border: solid 5px #000;
+  }
+  .conteiner .menu {
+    width: 50vw;
+    margin-left: 10px;
+    text-decoration: none;
+    border: none;
+    background-color: #00254e;
+  }
+  .herois .conteiner .baner {
+    width: 500px;
+    height: auto;
+  }
+  .herois .conteiner h1.baner img {
+    min-width: 230px;
+    max-width: 100%;
+    margin-top: 0;
+  }
+  .conteiner .menu img {
+    width: 80%;
+    height: auto;
+    margin-left: 50px;
+  }
+  .conteiner .menu ul {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    height: 180px;
+    margin-top: 10px;
+    border: none;
+  }
+  .conteiner .menu ul li {
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    flex-wrap: wrap;
+    height: 32px;
+    margin-top: 5px;
+    margin-left: 10px;
+    max-width: 100px;
+  }
+  .conteiner .menu ul li a {
+    height: 35px;
+    padding-top: 3px;
+    color: #ff7e00;
+    text-align: center;
+    font-size: 16px;
+  }
+  .container {
+    width: 1024px;
+    height: auto;
+    background-color: #00254e;
+    margin-top: -15px;
+  }
+  .corpo-personagens {
+    width: 100%;
+  }
+  .container .corpo-personagens .container-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 1024px;
+    height: auto;
+  }
+  .container .corpo-personagens .container-flex .container-flex-son {
+    width: 412px;
+    max-height: 573px;
+    margin-left: 10px;
+  }
+  .container-flex .card-personagem {
+    display: flex;
+    width: 502px;
+    height: auto;
+  }
+  .container-flex .card-personagem img {
+    width: 502px;
+    margin-top: 10px;
+    border: solid 5px rgba(000, 000, 000, 0.1);
+  }
+  .container-flex .card-personagem img:hover {
+    border: 5px solid #ff7e00;
+  }
+  .container-flex-son {
+    max-width: 502px;
+    text-align: center;
+    max-height: 573px;
+  }
+  .container-flex-son .persona {
+    width: 502px;
+  }
+  .container-flex-son .persona h1 {
+    max-width: 502px;
+    color: #ff7e00;
+    text-align: center;
+  }
+  .container-flex-son .ator h2 {
+    max-width: 502px;
+    color: #ff7e00;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .sobre {
+    max-width: 502px;
+    color: #ff7e00;
+    justify-content: safe;
+    text-align: center;
+    margin: 0;
+  }
+  .container-flex-son .sobre p {
+    max-width: 502px;
+    color: #ff7e00;
+    font-size: 1rem;
+  }
+  .rodape {
+    display: flex;
+    flex: 0 1 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1024px;
+  }
+  .menu-footer {
+    width: 1024px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .menu-footer img {
+    max-width: 320px;
+    flex: 0 1 1;
+  }
+  .direitos {
+    /* margin-left: 40px; */
+    max-width: 1024px;
+    color: antiquewhite;
+  }
+
+  .rodape .menu-footer .social {
+    font-weight: 500;
+    font-size: 18px;
+    /* justify-content: center; */
+  }
+  .topo {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background-color: #ff7e00;
+    color: black;
+  }
+}
+@media screen and (min-width: 1366px) {
+  .herois {
+    width: 1366px;
+    height: auto;
+  }
+  .conteiner {
+    width: 1366px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    flex-wrap: wrap;
+    flex: 0 1 1;
+    margin-top: 0;
+    margin-left: 0;
+    /* max-width: 1024px; */
+    background-color: rebeccapurple;
+  }
+  .conteiner img {
+    width: 100%;
+    margin-left: 0;
+  }
+  .herois .conteiner .baner img {
+    width: 100%;
+    /* height: auto; */
+    margin-top: 100px;
+    margin-left: 0;
+    border: solid 5px #000;
+  }
+  .herois .conteiner .menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 38%;
+    text-decoration: none;
+    border: none;
+    background-color: #00254e;
+    margin-right: 40px;
+  }
+  .herois .conteiner .baner {
+    position: absolute;
+    width: 760px;
+    top: 0;
+    left: 0;
+    /* background-color: #ff7e00; */
+  }
+  .herois .conteiner h1.baner img {
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .herois .conteiner .menu img {
+    width: 80%;
+    height: auto;
+    margin-left: 50px;
+  }
+  .conteiner .menu ul li {
+    font-size: 20px;
+    max-width: 150px;
+    text-align: center;
+  }
+  .conteiner .menu ul li a {
+    height: 45px;
+    text-align: center;
+    font-size: 20px;
+  }
+  .container {
+    width: 1366px;
+    height: auto;
+    background-color: #00254e;
+    margin-top: 438px;
+  }
+  .corpo-personagens {
+    width: 100%;
+  }
+  .container .corpo-personagens .container-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 1024px;
+    height: auto;
+  }
+  .container .corpo-personagens .container-flex .container-flex-son {
+    width: 620px;
+    margin-left: 10px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  .container-flex .card-personagem {
+    display: flex;
+    width: 675px;
+    height: auto;
+  }
+  .container-flex .card-personagem img {
+    width: 100%;
+    margin-top: 10px;
+    border: solid 5px rgba(000, 000, 000, 0.1);
+  }
+  .container-flex .card-personagem img:hover {
+    border: 5px solid #ff7e00;
+  }
+  .container-flex-son {
+    max-width: 720px;
+    text-align: center;
+    max-height: 573px;
+  }
+  .container-flex-son .persona {
+    width: 720px;
+    margin-left: 100px;
+  }
+  .herois .container .container-flex-son .persona h1 {
+    width: 720px;
+    color: #ff7e00;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 40px;
+  }
+  .herois .container .container-flex-son .ator h2 {
+    max-width: 720px;
+    color: #ff7e00;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 35px;
+  }
+  .sobre {
+    max-width: 700px;
+    color: #ff7e00;
+    justify-content: safe;
+    text-align: center;
+  }
+  .container-flex-son .sobre p {
+    min-width: 650px;
+    color: #ff7e00;
+    font-size: 1.2rem;
+    justify-content: safe;
+    margin-bottom: 10px;
+    margin-right: 20px;
+  }
+  .rodape {
+    display: flex;
+    flex: 0 1 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1440px;
+    height: 200px;
+  }
+  .menu-footer {
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .menu-footer img {
+    width: 480px;
+    flex: 0 1 1;
+  }
+  .direitos {
+    /* margin-left: 40px; */
+    max-width: 1440px;
+    color: antiquewhite;
+    font-size: 1.2rem;
+  }
+
+  .rodape .menu-footer .social {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    width: 130px;
+    height: 30px;
+    margin: 5px;
+    list-style: none;
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+  .topo {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background-color: #ff7e00;
+    color: black;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .herois {
+    width: 1440px;
+    height: auto;
+  }
+  .conteiner {
+    width: 1440px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    flex-wrap: wrap;
+    flex: 0 1 1;
+    margin-top: 0;
+    margin-left: 0;
+    /* max-width: 1024px; */
+    background-color: rebeccapurple;
+  }
+  .conteiner img {
+    width: 100%;
+    margin-left: 0;
+  }
+  .herois .conteiner .baner img {
+    width: 100%;
+    /* height: auto; */
+    margin-top: 100px;
+    margin-left: 0;
+    border: solid 5px #000;
+  }
+  .herois .conteiner .menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 40%;
+    text-decoration: none;
+    border: none;
+    background-color: #00254e;
+    margin-right: 40px;
+  }
+  .herois .conteiner .baner {
+    position: absolute;
+    width: 760px;
+    top: 0;
+    left: 0;
+    /* background-color: #ff7e00; */
+  }
+  .herois .conteiner h1.baner img {
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .herois .conteiner .menu img {
+    width: 80%;
+    height: auto;
+    margin-left: 50px;
+  }
+  .conteiner .menu ul li {
+    font-size: 20px;
+    max-width: 150px;
+    text-align: center;
+  }
+  .conteiner .menu ul li a {
+    height: 45px;
+    text-align: center;
+    font-size: 20px;
+  }
+  .container {
+    width: 1440px;
+    height: auto;
+    background-color: #00254e;
+    margin-top: 438px;
+  }
+  .corpo-personagens {
+    width: 100%;
+  }
+  .container .corpo-personagens .container-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 1024px;
+    height: auto;
+  }
+  .container .corpo-personagens .container-flex .container-flex-son {
+    width: 720px;
+    margin-left: 10px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  .container-flex .card-personagem {
+    display: flex;
+    width: 775px;
+    height: auto;
+  }
+  .container-flex .card-personagem img {
+    width: 100%;
+    margin-top: 10px;
+    border: solid 5px rgba(000, 000, 000, 0.1);
+  }
+  .container-flex .card-personagem img:hover {
+    border: 5px solid #ff7e00;
+  }
+  .container-flex-son {
+    max-width: 720px;
+    text-align: center;
+    max-height: 573px;
+  }
+  .container-flex-son .persona {
+    width: 720px;
+    margin-left: 100px;
+  }
+  .herois .container .container-flex-son .persona h1 {
+    width: 720px;
+    color: #ff7e00;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 40px;
+  }
+  .herois .container .container-flex-son .ator h2 {
+    max-width: 720px;
+    color: #ff7e00;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 35px;
+  }
+  .sobre {
+    max-width: 700px;
+    color: #ff7e00;
+    justify-content: safe;
+    text-align: center;
+  }
+  .container-flex-son .sobre p {
+    min-width: 650px;
+    color: #ff7e00;
+    font-size: 1.2rem;
+    justify-content: safe;
+    margin-bottom: 10px;
+    margin-right: 20px;
+  }
+  .rodape {
+    display: flex;
+    flex: 0 1 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1440px;
+    height: 200px;
+  }
+  .menu-footer {
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .menu-footer img {
+    width: 480px;
+    flex: 0 1 1;
+  }
+  .direitos {
+    /* margin-left: 40px; */
+    max-width: 1440px;
+    color: antiquewhite;
+    font-size: 1.2rem;
+  }
+
+  .rodape .menu-footer .social {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    width: 130px;
+    height: 30px;
+    margin: 5px;
+    list-style: none;
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+  .topo {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background-color: #ff7e00;
+    color: black;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .herois {
+    width: 2560px;
+    height: auto;
+  }
+  .conteiner {
+    width: 2560px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    flex-wrap: wrap;
+    flex: 0 1 1;
+    margin-top: 0;
+    margin-left: 0;
+    /* max-width: 1024px; */
+    background-color: rebeccapurple;
+  }
+  .conteiner img {
+    width: 100%;
+    margin-left: 0;
+  }
+  .herois .conteiner .baner img {
+    width: 100%;
+    /* height: auto; */
+    margin-top: 100px;
+    margin-left: 0;
+    border: solid 5px #000;
+  }
+  .herois .conteiner .menu {
+    position: absolute;
+    top: 20px;
+    /* right: 20px; */
+    width: 1200px;
+    text-decoration: none;
+    border: none;
+    background-color: #00254e;
+    /* margin-right: 40px; */
+  }
+  .herois .conteiner .baner {
+    position: absolute;
+    width: 1280px;
+    top: 0;
+    left: 0;
+    /* background-color: #ff7e00; */
+  }
+  .herois .conteiner h1.baner img {
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .herois .conteiner .menu img {
+    width: 70%;
+    height: auto;
+    margin-left: 50px;
+  }
+  .conteiner .menu ul li {
+    font-size: 20px;
+    max-width: 150px;
+    text-align: center;
+  }
+  .conteiner .menu ul li a {
+    height: 45px;
+    text-align: center;
+    font-size: 20px;
+  }
+  .container {
+    width: 2560px;
+    height: auto;
+    background-color: #00254e;
+    margin-top: 700px;
+    overflow-x: hidden;
+    margin-left: 0;
+  }
+  .corpo-personagens {
+    width: 100%;
+  }
+  .container .corpo-personagens .container-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 2560px;
+    height: auto;
+  }
+  .container .corpo-personagens .container-flex .container-flex-son {
+    position: absolute;
+    width: 1150px;
+    margin-bottom: 250px;
+    right: 100px;
+    /* background-color: red; */
+    height: auto;
+    text-align: center;
+  }
+  .container .corpo-personagens .container-flex .card-personagem {
+    width: 1280px;
+    margin-top: 50px;
+    margin-bottom: 0;
+  }
+  .container .container-flex .card-personagem {
+    display: flex;
+    width: 1280px;
+    height: auto;
+  }
+  .container .corpo-personagens .container-flex .card-personagem img {
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 0;
+    border: solid 5px rgba(000, 000, 000, 0.1);
+  }
+  .container-flex .card-personagem img:hover {
+    border: 5px solid #ff7e00;
+  }
+  .container-flex-son {
+    max-width: 1000px;
+    text-align: center;
+    /* max-height: 573px; */
+  }
+  .container-flex-son .persona {
+    width: 1000px;
+    margin-left: 0;
+    /* max-height: 50px; */
+    /* background-color: aliceblue; */
+  }
+  .herois .container .container-flex-son .persona h1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 1000px;
+    color: #ff7e00;
+    /* text-align: center; */
+    margin-bottom: 50px;
+    /* background-color: azure; */
+    font-size: 70px;
+    /* margin-bottom: 80px; */
+    margin: 0 auto;
+  }
+  .herois .container .container-flex-son .ator h2 {
+    width: 1000px;
+    color: #ff7e00;
+    text-align: center;
+    /* margin-bottom: 200px; */
+    font-size: 60px;
+    margin-bottom: 50px;
+    /* background-color: aliceblue; */
+    margin: 30px auto;
+  }
+  .sobre {
+    max-width: 1280px;
+    color: #ff7e00;
+    justify-content: safe;
+    text-align: center;
+    /* background-color: aqua; */
+    height: 600px;
+    /* margin-top: 80px; */
+    /* flex-wrap: wrap; */
+  }
+  .herois .container .container-flex-son .sobre p {
+    color: #ff7e00;
+    font-size: 30px;
+    width: 1280px;
+    margin: 0 auto;
+  }
+  .rodape {
+    position: relative;
+    bottom: 0;
+    display: flex;
+    flex: 1 1 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 2560px;
+    height: 500px;
+    margin: 0 auto;
+    margin-left: 0;
+  }
+  .menu-footer {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+    height: 300px;
+  }
+  .herois .rodape .menu-footer img {
+    width: 120%;
+    flex: 0 1 1;
+    /* background-color: black; */
+  }
+  .direitos {
+    /* margin-left: 40px; */
+    width: 2560px;
+    color: antiquewhite;
+    font-size: 2em;
+  }
+
+  .rodape .menu-footer .social {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    width: 250px;
+    height: 30px;
+    margin: 5px;
+    list-style: none;
+    font-weight: 500;
+    font-size: 2em;
+  }
+  .topo {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background-color: #ff7e00;
+    color: black;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .herois {
+    width: 100%;
+    height: auto;
+  }
+  .container {
+    width: 100%;
+    height: auto;
+    background-color: #00254e;
+    margin-top: 438px;
+  }
+  .corpo-personagens {
+    width: 1920px;
+    margin-left: 0;
+  }
+  .container .corpo-personagens .container-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 1024px;
+    height: auto;
+  }
+  .container-flex .card-personagem {
+    display: flex;
+    width: 775px;
+    height: auto;
+  }
+  .container .corpo-personagens .container-flex .container-flex-son {
+    width: 720px;
+    margin-left: 230px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  .herois .rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1920px;
+  }
+  .menu-footer {
+    width: 1920px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
