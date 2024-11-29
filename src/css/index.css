@@ -945,6 +945,55 @@ body {
     color: black;
   }
 }
+@media screen and (min-width: 1920px) {
+  .herois {
+    width: 100%;
+    height: auto;
+  }
+  .container {
+    width: 100%;
+    height: auto;
+    background-color: #00254e;
+    margin-top: 438px;
+  }
+  .corpo-personagens {
+    width: 1920px;
+    margin-left: 0;
+  }
+  .container .corpo-personagens .container-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 1024px;
+    height: auto;
+  }
+  .container-flex .card-personagem {
+    display: flex;
+    width: 775px;
+    height: auto;
+  }
+  .container .corpo-personagens .container-flex .container-flex-son {
+    width: 720px;
+    margin-left: 230px;
+    margin-top: 0;
+    margin-bottom: 12px;
+  }
+  .herois .rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1920px;
+  }
+  .menu-footer {
+    width: 1920px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
 
 @media screen and (min-width: 2560px) {
   .herois {
@@ -1162,54 +1211,5 @@ body {
     height: 25px;
     background-color: #ff7e00;
     color: black;
-  }
-}
-@media screen and (min-width: 1920px) {
-  .herois {
-    width: 100%;
-    height: auto;
-  }
-  .container {
-    width: 100%;
-    height: auto;
-    background-color: #00254e;
-    margin-top: 438px;
-  }
-  .corpo-personagens {
-    width: 1920px;
-    margin-left: 0;
-  }
-  .container .corpo-personagens .container-flex {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: nowrap;
-    width: 1024px;
-    height: auto;
-  }
-  .container-flex .card-personagem {
-    display: flex;
-    width: 775px;
-    height: auto;
-  }
-  .container .corpo-personagens .container-flex .container-flex-son {
-    width: 720px;
-    margin-left: 230px;
-    margin-top: 0;
-    margin-bottom: 10px;
-  }
-  .herois .rodape {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 1920px;
-  }
-  .menu-footer {
-    width: 1920px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
   }
 }
